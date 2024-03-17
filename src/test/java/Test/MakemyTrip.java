@@ -54,11 +54,8 @@ public class MakemyTrip extends BaseClass {
 		}
 
 		driver.findElement(By.xpath("//a[contains(text(),'Search')]")).click();
-<<<<<<< HEAD
 		System.out.println("Test case passed ok");
-=======
-		System.out.println("Test case passed");
->>>>>>> 9af979908f69aefe69c8ac679273ffd62389972b
+
 	}
 
 }
