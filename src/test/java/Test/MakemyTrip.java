@@ -12,9 +12,7 @@ public class MakemyTrip extends BaseClass {
 	public void test() {
 
 		Landing obj = new Landing(driver);
-		obj.entefromcity("CCU");
-		
-		
+		obj.entefromcity();
 		driver.findElement(By.xpath("//input[@id='toCity']")).click();
 		WebElement destination = driver.findElement(By.xpath("//input[@placeholder='To']"));
 		destination.sendKeys("Netaji");
